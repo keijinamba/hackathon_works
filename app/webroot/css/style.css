@@ -1,0 +1,13 @@
+html, body { margin: 0; height: 500px;}
+
+/* 共通 */
+.list-none { list-style:none;}
+.no-underbar { text-decoration: none;}
+.color-black {color:rgb(20, 20, 20);}
+
+/* pcページ */
+.pc header { position:fixed; height:100px; width:100%; border-bottom:solid 1px rgb(20, 20, 20);}
+.pc header h1 { margin:0 30px; width:200px; line-height:100px; float: left;}
+.pc header ul { margin:0; padding:0; height:100px; width:auto; float:right;}
+.pc header ul li { height:100px; width:100px; float:left;}
+.pc header ul li  a { display:inline; line-height:100px;}
