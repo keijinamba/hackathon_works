@@ -1,0 +1,12 @@
+2016-06-18 14:55:54 Error: [MissingViewException] View file "/vagrant/cakephp/app/View/Pages/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/vagrant/cakephp/app/View/Pages/index.ctp',
+)
+Request URL: /
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /vagrant/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
+#4 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
