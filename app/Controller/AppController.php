@@ -4,7 +4,8 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	protected $isMobile;
     protected $authUser;
-    
+    public $components = array('RequestHandler','Session','Auth');
+
 	public function beforeFilter() {
         // $this->_load_authUser();
         $this->_load_isMobile();
