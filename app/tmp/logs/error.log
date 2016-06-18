@@ -279,3 +279,437 @@ Stack Trace:
 #1 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #2 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2016-06-18 19:35:16 Error: Fatal Error (1): Call to a member function isRSS() on a non-object in [/vagrant/cakephp/app/Controller/AppController.php, line 29]
+2016-06-18 19:35:16 Error: [FatalErrorException] Call to a member function isRSS() on a non-object
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/cakeph...', 29)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/cakeph...', 29, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/cakeph...', 29, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-18 19:36:22 Error: Fatal Error (4): syntax error, unexpected '<' in [/vagrant/cakephp/app/View/Users/mypage.ctp, line 3]
+2016-06-18 19:36:22 Error: [FatalErrorException] syntax error, unexpected '<'
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 3)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 3, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 3, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-18 19:41:56 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ')' in [/vagrant/cakephp/app/Controller/AppController.php, line 30]
+2016-06-18 19:41:56 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ')'
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 30, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 30, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-18 19:42:03 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ')' in [/vagrant/cakephp/app/Controller/AppController.php, line 30]
+2016-06-18 19:42:03 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ')'
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 30, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 30, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-18 19:42:31 Error: Fatal Error (4): syntax error, unexpected T_STRING, expecting ')' in [/vagrant/cakephp/app/Controller/AppController.php, line 30]
+2016-06-18 19:42:31 Error: [FatalErrorException] syntax error, unexpected T_STRING, expecting ')'
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 30)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 30, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 30, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-18 19:45:53 Error: Fatal Error (4): syntax error, unexpected $end in [/vagrant/cakephp/app/View/Elements/pc/header.ctp, line 16]
+2016-06-18 19:45:53 Error: [FatalErrorException] syntax error, unexpected $end
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 16)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 16, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 16, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 01:36:45 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/lib/mysql/mysql.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /vagrant/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /vagrant/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(3551): Model->setSource('users')
+#5 /vagrant/cakephp/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#6 /vagrant/cakephp/app/Controller/UsersController.php(31): Model->__call('findById', Array)
+#7 /vagrant/cakephp/app/Controller/UsersController.php(31): User->findById('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 01:55:13 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/lib/mysql/mysql.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /vagrant/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /vagrant/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(3551): Model->setSource('users')
+#5 /vagrant/cakephp/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#6 /vagrant/cakephp/app/Controller/UsersController.php(31): Model->__call('findById', Array)
+#7 /vagrant/cakephp/app/Controller/UsersController.php(31): User->findById('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 02:23:27 Error: [MissingViewException] View file "/vagrant/cakephp/app/View/Users/get_data.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/vagrant/cakephp/app/View/Users/get_data.ctp',
+)
+Request URL: /users/getData?date=20160615
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /vagrant/cakephp/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2016-06-19 03:26:13 Error: Fatal Error (1): Call to a member function getTwitter() on a non-object in [/vagrant/cakephp/app/Controller/UsersController.php, line 33]
+2016-06-19 03:26:13 Error: [FatalErrorException] Call to a member function getTwitter() on a non-object
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/cakeph...', 33)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/cakeph...', 33, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/cakeph...', 33, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 03:26:29 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(7): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(7): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:28:07 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(7): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(7): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:29:05 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(7): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(7): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:29:08 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(7): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(7): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:29:09 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(7): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(7): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:32:58 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(8): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(8): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:33:25 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(8): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(8): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:33:27 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'loadModel' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('loadModel', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('loadModel', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('loadModel', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('loadModel', Array, Object(Content))
+#5 /vagrant/cakephp/app/Model/Content.php(8): Model->__call('loadModel', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(8): Content->loadModel('User')
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:35:42 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'username' in 'where clause'
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Content...', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Content...', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Content...', false)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Content), Array)
+#5 /vagrant/cakephp/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /vagrant/cakephp/app/Model/Content.php(11): Model->find('first', Array)
+#7 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2016-06-19 03:36:52 Error: Fatal Error (1): Class 'TwitterOAuth' not found in [/vagrant/cakephp/app/Model/Content.php, line 22]
+2016-06-19 03:36:52 Error: [FatalErrorException] Class 'TwitterOAuth' not found
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 22)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 22, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'TwitterO...', '/vagrant/cakeph...', 22, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 03:37:28 Error: Fatal Error (1): Class 'TwitterOAuth' not found in [/vagrant/cakephp/app/Model/Content.php, line 23]
+2016-06-19 03:37:28 Error: [FatalErrorException] Class 'TwitterOAuth' not found
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 03:38:59 Error: Fatal Error (1): Class 'TwitterOAuth' not found in [/vagrant/cakephp/app/Model/Content.php, line 23]
+2016-06-19 03:38:59 Error: [FatalErrorException] Class 'TwitterOAuth' not found
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 03:39:04 Error: Fatal Error (1): Class 'TwitterOAuth' not found in [/vagrant/cakephp/app/Model/Content.php, line 23]
+2016-06-19 03:39:04 Error: [FatalErrorException] Class 'TwitterOAuth' not found
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'TwitterO...', '/vagrant/cakeph...', 23, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 03:40:20 Error: Fatal Error (1): Class 'TwitterOAuth' not found in [/vagrant/cakephp/app/Model/Content.php, line 24]
+2016-06-19 03:40:20 Error: [FatalErrorException] Class 'TwitterOAuth' not found
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 24)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'TwitterO...', '/vagrant/cakeph...', 24, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'TwitterO...', '/vagrant/cakeph...', 24, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 03:45:06 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: 'Sat Jun 18 13:03:49 +0000 2016' for column 'posted' at row 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ha...', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ha...')
+#3 /vagrant/cakephp/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Content), Array, Array)
+#4 /vagrant/cakephp/app/Model/Content.php(39): Model->save(Array)
+#5 /vagrant/cakephp/app/Controller/UsersController.php(33): Content->getTwitter('4')
+#6 [internal function]: UsersController->mypage('4')
+#7 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#8 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#9 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#10 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2016-06-19 04:17:52 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/vagrant/cakephp/app/Controller/UsersController.php, line 41]
+2016-06-19 04:17:52 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 41)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 41, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 41, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 04:18:05 Error: [PDOException] SQLSTATE[22007]: Invalid datetime format: 1292 Incorrect datetime value: '139.61557' for column 'lng' at row 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `ha...', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `ha...')
+#3 /vagrant/cakephp/lib/Cake/Model/Model.php(1854): DboSource->create(Object(AppModel), Array, Array)
+#4 /vagrant/cakephp/app/Controller/UsersController.php(42): Model->save(Array)
+#5 [internal function]: UsersController->mypage('4')
+#6 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#7 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#9 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2016-06-19 04:20:59 Error: Fatal Error (1): Call to undefined method UsersController::ceate() in [/vagrant/cakephp/app/Controller/UsersController.php, line 37]
+2016-06-19 04:20:59 Error: [FatalErrorException] Call to undefined method UsersController::ceate()
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/vagrant/cakeph...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/vagrant/cakeph...', 37, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/vagrant/cakeph...', 37, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 04:21:16 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ceate' at line 1
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('ceate', Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('ceate', Array, Array)
+#3 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(609): DboSource->fetchAll('ceate', Array, Array)
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(808): DboSource->query('ceate', Array, Object(AppModel))
+#5 /vagrant/cakephp/app/Controller/UsersController.php(37): Model->__call('ceate', Array)
+#6 /vagrant/cakephp/app/Controller/UsersController.php(37): AppModel->ceate()
+#7 [internal function]: UsersController->mypage('4')
+#8 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#9 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#11 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2016-06-19 04:41:37 Error: Fatal Error (1): Call to a member function format() on a non-object in [/vagrant/cakephp/app/Controller/UsersController.php, line 37]
+2016-06-19 04:41:37 Error: [FatalErrorException] Call to a member function format() on a non-object
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/cakeph...', 37)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/cakeph...', 37, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/cakeph...', 37, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 04:42:11 Error: Fatal Error (1): Call to a member function format() on a non-object in [/vagrant/cakephp/app/Controller/UsersController.php, line 36]
+2016-06-19 04:42:11 Error: [FatalErrorException] Call to a member function format() on a non-object
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/cakeph...', 36)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/cakeph...', 36, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/cakeph...', 36, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 04:50:37 Error: Fatal Error (4): syntax error, unexpected T_OBJECT_OPERATOR, expecting T_STRING or T_VARIABLE or '{' or '$' in [/vagrant/cakephp/app/Controller/UsersController.php, line 36]
+2016-06-19 04:50:37 Error: [FatalErrorException] syntax error, unexpected T_OBJECT_OPERATOR, expecting T_STRING or T_VARIABLE or '{' or '$'
+Request URL: /users/mypage/4
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/vagrant/cakeph...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/vagrant/cakeph...', 36, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/vagrant/cakeph...', 36, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 06:13:07 Error: [Exception] DateTime::__construct(): Failed to parse time string (20160606?date=20160613 23:59:59) at position 8 (?): Unexpected character
+Request URL: /users/mypage/4?date=20160606%3Fdate%3D20160613
+Stack Trace:
+#0 /vagrant/cakephp/app/Controller/UsersController.php(33): DateTime->__construct('20160606?date=2...')
+#1 [internal function]: UsersController->mypage('4')
+#2 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#4 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}

@@ -6,8 +6,12 @@ html, body { margin: 0; height: 500px;}
 .color-black {color:rgb(20, 20, 20);}
 
 /* pcページ */
-.pc header { position:fixed; height:100px; width:100%; border-bottom:solid 1px rgb(20, 20, 20);}
+.pc header { position:relative; z-index:10; height:100px; width:100%; border-bottom:solid 1px rgb(20, 20, 20);}
 .pc header h1 { margin:0 30px; width:200px; line-height:100px; float: left;}
 .pc header ul { margin:0; padding:0; height:100px; width:auto; float:right;}
 .pc header ul li { height:100px; width:100px; float:left; margin:0 5px;}
 .pc header ul li  a { display:inline; line-height:100px;}
+.pc #map-wrapper { position:relative; margin: 50px 0 0 50px; float:left;}
+.pc #map-wrapper #map { height:400px;width:600px;}
+.pc .twitter_wrapper { width:700px; overflow-y:hidden; }
+.pc .twitter_wrapper .twitter-tweet { width:300px !important; float:left; margin:10px;}
