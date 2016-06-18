@@ -1,5 +1,5 @@
 <?php
-class Contents extends AppModel {
+class Content extends AppModel {
     public $name = 'Content';
     public $useTable = 'contents';
 }
