@@ -2,15 +2,18 @@
 
 App::uses('Controller', 'Controller');
 class AppController extends Controller {
+	protected $isMobile;
+    protected $authUser;
+    
 	public function beforeFilter() {
-        $this->_load_authUser();
+        // $this->_load_authUser();
         $this->_load_isMobile();
     }
-    public function _load_authUser(){
-        $authUser = $this->Auth->user();
-        $this->authUser = $authUser;
-        $this->set('authUser',$authUser);
-    }
+    // public function _load_authUser(){
+    //     $authUser = $this->Auth->user();
+    //     $this->authUser = $authUser;
+    //     $this->set('authUser',$authUser);
+    // }
     protected function _load_isMobile(){
         if (!isset($_SERVER['HTTP_USER_AGENT'])) {
             $isMobile=false;
