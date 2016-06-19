@@ -933,3 +933,25 @@ Stack Trace:
 #11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #13 {main}
+2016-06-19 16:26:54 Error: Fatal Error (1): Call to a member function log() on a non-object in [/vagrant/cakephp/app/Controller/UsersController.php, line 47]
+2016-06-19 16:26:54 Error: [FatalErrorException] Call to a member function log() on a non-object
+Request URL: /users/mypage/4?date=20160614
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/vagrant/cakeph...', 47)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/vagrant/cakeph...', 47, Array)
+#2 /vagrant/cakephp/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/vagrant/cakeph...', 47, Array)
+#3 /vagrant/cakephp/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2016-06-19 16:27:06 Error: 35.725498
+2016-06-19 16:27:32 Error: Array
+(
+    [id] => 26
+    [user_id] => 4
+    [lat] => 35.725498
+    [lng] => 139.61557
+    [time] => 2016-06-14 09:12:59
+    [created] => 2016-06-14 11:34:52
+    [modified] => 2016-06-19 04:21:56
+)
+
