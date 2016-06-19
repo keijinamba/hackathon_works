@@ -32,6 +32,12 @@ class UsersController extends AppController{
 		$this->set('user', $user);
 		$date = (isset($_GET['date']) && $_GET['date'])? new DateTime($_GET['date'].' 23:59:59') : new DateTime();
 		$tweets = $this->Content->find('all', array('conditions'=>array('user_id'=>$id,'type'=>'twitter','posted <='=>$date->format('Y-m-d H:i:s'),'posted >='=>$date->format('Y-m-d 00:00:00'))));
+		for ($i=0; $i < count($tweets) - 1; $i++) {
+			$point = $this->Location->find('first', array('conditions'=>array('time <='=>$tweets[$i]['Content']['posted']),'order'=>array('time'=>'desc')));
+			if (!$point) { continue; }
+			$tweets[$i]['Content']['lat'] = $point['Location']['lat'];
+			$tweets[$i]['Content']['lng'] = $point['Location']['lng'];
+		}
 		$this->set('tweets', $tweets);
 	}
 	public function getData() {

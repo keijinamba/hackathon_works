@@ -139,3 +139,643 @@
 2016-06-19 06:07:02 Debug: 20160608
 2016-06-19 06:07:36 Debug: 20160608
 2016-06-19 06:09:43 Debug: 20160606
+2016-06-19 06:56:33 Debug: Array
+(
+    [0] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 5
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742681707602714625
+                    [type] => twitter
+                    [posted] => 2016-06-14 11:34:52
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [1] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 6
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742646001668788225
+                    [type] => twitter
+                    [posted] => 2016-06-14 09:12:59
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [2] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 7
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742636495660453888
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:35:12
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [3] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 8
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742629944832860161
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:09:10
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [4] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 9
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742627394331107328
+                    [type] => twitter
+                    [posted] => 2016-06-14 07:59:02
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+)
+
+2016-06-19 07:02:17 Debug: Array
+(
+    [0] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 5
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742681707602714625
+                    [type] => twitter
+                    [posted] => 2016-06-14 11:34:52
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [1] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 6
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742646001668788225
+                    [type] => twitter
+                    [posted] => 2016-06-14 09:12:59
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [2] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 7
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742636495660453888
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:35:12
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [3] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 8
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742629944832860161
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:09:10
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [4] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 9
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742627394331107328
+                    [type] => twitter
+                    [posted] => 2016-06-14 07:59:02
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+)
+
+2016-06-19 07:02:58 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:02:58 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:02:58 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:02:58 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:02:58 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:02:58 Debug: Array
+(
+    [0] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 5
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742681707602714625
+                    [type] => twitter
+                    [posted] => 2016-06-14 11:34:52
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [1] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 6
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742646001668788225
+                    [type] => twitter
+                    [posted] => 2016-06-14 09:12:59
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [2] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 7
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742636495660453888
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:35:12
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [3] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 8
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742629944832860161
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:09:10
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [4] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 9
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742627394331107328
+                    [type] => twitter
+                    [posted] => 2016-06-14 07:59:02
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+)
+
+2016-06-19 07:05:19 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:05:19 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:05:19 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:05:19 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:05:19 Debug: Array
+(
+    [0] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 5
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742681707602714625
+                    [type] => twitter
+                    [posted] => 2016-06-14 11:34:52
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [1] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 6
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742646001668788225
+                    [type] => twitter
+                    [posted] => 2016-06-14 09:12:59
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [2] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 7
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742636495660453888
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:35:12
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [3] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 8
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742629944832860161
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:09:10
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+    [4] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 9
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742627394331107328
+                    [type] => twitter
+                    [posted] => 2016-06-14 07:59:02
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+)
+
+2016-06-19 07:06:21 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:06:21 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:06:21 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:06:21 Debug: Array
+(
+    [Location] => Array
+        (
+            [id] => 27
+            [user_id] => 4
+            [lat] => 35.628658
+            [lng] => 139.711914
+            [time] => 2016-06-14 11:35:52
+            [created] => 2016-06-14 11:34:52
+            [modified] => 2016-06-19 04:21:56
+        )
+
+)
+
+2016-06-19 07:06:21 Debug: Array
+(
+    [0] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 5
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742681707602714625
+                    [type] => twitter
+                    [posted] => 2016-06-14 11:34:52
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                    [lat] => 35.628658
+                    [lng] => 139.711914
+                )
+
+        )
+
+    [1] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 6
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742646001668788225
+                    [type] => twitter
+                    [posted] => 2016-06-14 09:12:59
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                    [lat] => 35.628658
+                    [lng] => 139.711914
+                )
+
+        )
+
+    [2] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 7
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742636495660453888
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:35:12
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                    [lat] => 35.628658
+                    [lng] => 139.711914
+                )
+
+        )
+
+    [3] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 8
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742629944832860161
+                    [type] => twitter
+                    [posted] => 2016-06-14 08:09:10
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                    [lat] => 35.628658
+                    [lng] => 139.711914
+                )
+
+        )
+
+    [4] => Array
+        (
+            [Content] => Array
+                (
+                    [id] => 9
+                    [user_id] => 4
+                    [url] => https://twitter.com/kengo1008L/status/742627394331107328
+                    [type] => twitter
+                    [posted] => 2016-06-14 07:59:02
+                    [created] => 2016-06-19 03:46:50
+                    [modified] => 2016-06-19 03:46:50
+                )
+
+        )
+
+)
+
+2016-06-19 07:41:53 Debug: Array
+(
+)
+
+2016-06-19 07:42:18 Debug: Array
+(
+)
+
+2016-06-19 07:53:05 Debug: 35.628658
+2016-06-19 07:53:05 Debug: 35.628658
+2016-06-19 07:53:05 Debug: 35.628658
+2016-06-19 07:53:05 Debug: 35.628658
+2016-06-19 07:56:13 Debug: 2016-06-14 11:34:52
+2016-06-19 07:56:13 Debug: 35.628658
+2016-06-19 07:56:13 Debug: 2016-06-14 09:12:59
+2016-06-19 07:56:13 Debug: 35.628658
+2016-06-19 07:56:13 Debug: 2016-06-14 08:35:12
+2016-06-19 07:56:13 Debug: 35.628658
+2016-06-19 07:56:13 Debug: 2016-06-14 08:09:10
+2016-06-19 07:56:13 Debug: 35.628658
+2016-06-19 07:57:55 Debug: 2016-06-14 11:34:52
+2016-06-19 07:57:55 Debug: 35.713167
+2016-06-19 07:57:55 Debug: 2016-06-14 09:12:59
+2016-06-19 07:57:55 Debug: 35.713167
+2016-06-19 07:57:55 Debug: 2016-06-14 08:35:12
+2016-06-19 07:57:55 Debug: 35.713167
+2016-06-19 07:57:55 Debug: 2016-06-14 08:09:10
+2016-06-19 07:57:55 Debug: 35.713167
+2016-06-19 07:59:14 Debug: 2016-06-14 11:34:52
+2016-06-19 07:59:14 Debug: 35.713167
+2016-06-19 07:59:14 Debug: 2016-06-14 09:12:59
+2016-06-19 07:59:14 Debug: 35.713167
+2016-06-19 07:59:14 Debug: 2016-06-14 08:35:12
+2016-06-19 07:59:14 Debug: 35.713167
+2016-06-19 07:59:14 Debug: 2016-06-14 08:09:10
+2016-06-19 07:59:32 Debug: 2016-06-14 11:34:52
+2016-06-19 07:59:32 Debug: 35.633364
+2016-06-19 07:59:32 Debug: 2016-06-14 09:12:59
+2016-06-19 07:59:32 Debug: 35.725498
+2016-06-19 07:59:32 Debug: 2016-06-14 08:35:12
+2016-06-19 07:59:32 Debug: 35.713167
+2016-06-19 07:59:32 Debug: 2016-06-14 08:09:10

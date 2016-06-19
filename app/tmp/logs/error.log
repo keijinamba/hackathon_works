@@ -713,3 +713,201 @@ Stack Trace:
 #4 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #5 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #6 {main}
+2016-06-19 09:18:30 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:18:35 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:20:06 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:20:42 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:20:46 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:33:54 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:34:39 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:35:54 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:36:15 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:37:42 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:38:44 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:46:37 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:49:41 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:51:14 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:52:32 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:52:33 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:52:35 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:52:35 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:52:36 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:52:42 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:52:45 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2016-06-19 09:53:33 Error: [MissingControllerException] Controller class ContentController could not be found.
+Exception Attributes: array (
+  'class' => 'ContentController',
+  'plugin' => NULL,
+)
+Request URL: /content/img/ajax/gmapv3/sphinx.gif
+Stack Trace:
+#0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

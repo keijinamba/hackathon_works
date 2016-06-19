@@ -3,7 +3,8 @@ html, body { margin: 0; height: 500px;}
 /* 共通 */
 .list-none { list-style:none;}
 .no-underbar { text-decoration: none;}
-.color-black {color:rgb(20, 20, 20);}
+.color-black { color:rgb(20, 20, 20);}
+.unshow { display:none;}
 
 /* pcページ */
 .pc header { position:relative; z-index:10; height:100px; width:100%; border-bottom:solid 1px rgb(20, 20, 20);}
@@ -15,3 +16,18 @@ html, body { margin: 0; height: 500px;}
 .pc #map-wrapper #map { height:400px;width:600px;}
 .pc .twitter_wrapper { width:700px; overflow-y:hidden; }
 .pc .twitter_wrapper .twitter-tweet { width:300px !important; float:left; margin:10px;}
+.pc h1 {margin:0 auto;}
+.pc .twitter_modal 
+#UserSignupForm {margin:0 auto; width:60%; height:20%; text-align: center;}
+#UserLoginForm {margin:0 auto; width:60%; height:20%; text-align: center;}
+
+.password {padding-top: 2%;}
+.submit {padding-top: 2%;}
+label {padding-right: 5%; font-size: 30px;}
+input{-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+-moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+-webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);}
+.submit input {width:10%; height:10%;}
