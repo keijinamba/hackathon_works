@@ -4,21 +4,22 @@ class ApiController extends AppController{
 	public $uses = array('Location');
 
 	public function getJson() {
+		$this->autoRender = false;
 		$data = $this->request->data;
 		if (!$data) {
-			return
+			return;
 		}
 		if (!isset($data['user']) || !$data['user']) {
-			return
+			return;
 		}
 		if (!isset($data['lat']) || !$data['lat']) {
-			return
+			return;
 		}
 		if (!isset($data['lon']) || !$data['lon']) {
-			return
+			return;
 		}
 		if (!isset($data['time']) || !$data['time']) {
-			return
+			return;
 		}
 		$this->Location->create();
 		$this->Location->save(array(
