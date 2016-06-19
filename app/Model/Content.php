@@ -8,7 +8,7 @@ class Content extends AppModel {
     	App::uses('User', 'Model');
     	$this->User= new User();
     	$user = $this->User->find('first', array('conditions'=>array('User.id'=>$user_id)));
-        $last_tweet = $this->find('first', array('conditions'=>array('user_id'=>$user['User']['id']),'order'=>array('created'=>'desc')));
+        $last_tweet = $this->find('first', array('conditions'=>array('user_id'=>$user['User']['id'],'type'=>'twitter'),'order'=>array('created'=>'desc')));
 
     	App::import('Vendor','twitteroauth');
     	// require_once('/var/www/html/cakephp/app/Vendor/OAuth.php');
@@ -46,5 +46,51 @@ class Content extends AppModel {
 		        // echo '<br>';
 		    }
 		}
+    }
+
+    public function getFacebook($user_id)
+    {
+        $user = $this->User->find('first', array('conditions'=>array('User.id'=>$user_id)));
+        $last_face = $this->find('first', array('conditions'=>array('user_id'=>$user['User']['id'],'type'=>'facebook'),'order'=>array('created'=>'desc')));
+        define('APP_ID', "723725144433672");
+        define('APP_TOKEN', "EAACEdEose0cBAHgr4a0HSftwhDhobFgqNHhQJo2CSms89rXhi08ZAF3RGGmwhtJub29tqqfDyI6ma6nZAzOUwFSvtqarULl0ZBRIpo6gqx8nrksPurZCMzVzzfsXiL4ItL5jNav0I0NTOaZBIxuq0vqEykeQgLKQ2YaUX272DoQZDZD");
+        $url = "https://graph.facebook.com/v2.3/".APP_ID."/feed?access_token=".APP_TOKEN;
+        $ch = curl_init();
+        curl_setopt_array($ch,
+         array(
+         CURLOPT_URL => $url,
+         CURLOPT_SSL_VERIFYPEER =>false,
+         CURLOPT_RETURNTRANSFER =>true,
+         )
+         );
+        $res = curl_exec($ch);
+        curl_close($ch);
+        //json整形
+        $array = json_decode($res, TRUE);
+         
+        $fb_data = array(); //投稿内容を入れる配列です
+        $times = array(); //投稿時間を入れる配列です
+        $i = 0;
+        while(1==1){
+         $urls = $array['data'][$i]['id'];
+         $url_array = explode("_", $urls);
+         $times[$i] = substr($array['data'][$i]['created_time'], 0, strcspn($array['data'][$i]['created_time'],'T'));
+         $date = new DateTime($times[$i]);
+         $times[$i] = $date->format('Y-m-d H:i:s');
+         if (isset($last_face['Content']['created']) && $last_face['Content']['created']) {
+             $now = $date->format($last_face['Content']['created']);
+         }else{
+             $now = $date->format('2016-06-01 00:00:00');
+         }
+         if($times[$i]<$now)break;
+        $this->create();
+        $this->save(array(
+            "user_id" => $user_id,
+            "url" => "https://www.facebook.com/".$url_array[0]."/posts/".$url_array[1],
+            "type" => "facebook",
+            "posted" => $times[$i]
+        ));
+         $i += 1;
+        }
     }
 }
