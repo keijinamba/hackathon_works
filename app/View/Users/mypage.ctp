@@ -17,13 +17,9 @@ echo $this->element('pc/header');
 	<blockquote class="twitter-tweet" data-lang="ja"><a href="<?php echo $tweet['Content']['url'] ?>"></a></blockquote>
     <?php endforeach ; ?>
 </div>
-<div class="twitter_modal">
-	<?php
-	$count=0;
-	foreach ($tweets as $tweet) :
-	$count++;
-	?>
-	<div class="modal unshow modal<?php echo $count ?>" data-id="<?php echo $count ?>">
+<div class="twitter_modal unshow">
+	<?php foreach ($tweets as $tweet) : ?>
+	<div class="modal unshow modal<?php echo $tweet['Content']['id'] ?>">
 	    <blockquote class="twitter-tweet" data-lang="ja"><a href="<?php echo $tweet['Content']['url'] ?>"></a></blockquote>
     </div>
     <?php endforeach ; ?>
@@ -46,7 +42,6 @@ function initMap() {
 	var directionsDisplay = new google.maps.DirectionsRenderer;
 	var directionsService = new google.maps.DirectionsService;
 	var markers = [];
-	var infowindow = [];
 	var points = [{lat: 35.725498, lng: 139.615570},{lat: 35.628658, lng: 139.711914},{lat: 35.713167, lng: 139.705457},{lat: 35.722547, lng: 139.643250},{lat: 35.716102, lng: 139.698816},{lat: 35.706696, lng: 139.701605},{lat: 35.660517, lng: 139.701390},{lat: 35.633364, lng: 139.715382}];
 	var request = {
 	    origin:points[0],
@@ -92,19 +87,28 @@ function initMap() {
         }
     });
 	for (var i = 0; i <= tweet_points.length - 1; i++) {
-		infowindow=new google.maps.InfoWindow({
-		    content: contentString
-		});
 	  	markers[i] = new google.maps.Marker({
 			map: map,
 			animation: google.maps.Animation.DROP,
 			position: tweet_points[i],
 			anchorPoint: new google.maps.Point( 0 , -24 )
 		});
-		google.maps.event.addListener( markers[i] , 'click' , function() {
-			
-		});
+	};
+	for (var i = 0; i <= tweet_points.length - 1; i++) {
+		google.maps.event.addListener( markers[i] , 'click' , (function(i) {
+			return function() {
+			$('.twitter_modal .modal' + tweet_ids[i]).fadeIn('slow');
+			$('.twitter_modal .modal' + tweet_ids[i]).addClass('active');
+			$('.twitter_modal').addClass('modal-back');
+			$('.twitter_modal').fadeIn('slow')};
+		})(i));
 	};
 }
+$(document).on('click', '.twitter_modal', function() {
+	$('.twitter_modal .active').hide();
+	$('.twitter_modal .active').removeClass('active');
+	$('.twitter_modal').removeClass('modal-back');
+	$('.twitter_modal').hide();
+});
 </script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwgQwhMxIar1UU0YIQJMbgnfWK4vld17A&callback=initMap"></script>

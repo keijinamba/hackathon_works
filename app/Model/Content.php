@@ -27,7 +27,6 @@ class Content extends AppModel {
 			$req = $twObj->OAuthRequest("https://api.twitter.com/1.1/statuses/user_timeline.json","GET",array("count"=>10,"screen_name"=>$user['User']['twitter_id'],"trim_user"=>true,'since'=>'2016-06-17'));
 		}
 		$tw_arr = json_decode($req);
-		$this->log($tw_arr, LOG_DEBUG);
 		if (isset($tw_arr)) {
 		    foreach ($tw_arr as $key => $val) {
 		    	$date = new DateTime($val->created_at);
