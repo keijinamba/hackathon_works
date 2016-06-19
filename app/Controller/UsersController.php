@@ -39,7 +39,7 @@ class UsersController extends AppController{
 			$tweets[$i]['Content']['lng'] = $point['Location']['lng'];
 		}
 		$this->set('tweets', $tweets);
-
+		
 		$facebooks = $this->Content->find('all', array('conditions'=>array('user_id'=>$id,'type'=>'facebook','posted <='=>$date->format('Y-m-d H:i:s'),'posted >='=>$date->format('Y-m-d 00:00:00'))));
 		for ($i=0; $i < count($facebooks) - 1; $i++) {
 			$point = $this->Location->find('first', array('conditions'=>array('time <='=>$facebooks[$i]['Content']['posted']),'order'=>array('time'=>'desc')));
@@ -48,6 +48,13 @@ class UsersController extends AppController{
 			$facebooks[$i]['Content']['lng'] = $point['Location']['lng'];
 		}
 		$this->set('facebooks', $facebooks);
+
+		$locations = $this->Location->find('all', array('conditions'=>array('time <='=>$date->format('Y-m-d H:i:s'),'time >='=>$date->format('Y-m-d 00:00:00'))));
+		$latlng = array();
+		for ($i=0; $i < count($locations); $i++) { 
+			$latlng[$i] = array("lat"=>(double) $locations[$i]['Location']['lat'], "lng"=>(double) $locations[$i]['Location']['lng']);
+		}
+		$this->set('locations', $latlng);
 	}
 	public function getData() {
 		$this->autoRender = false;

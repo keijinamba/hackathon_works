@@ -82,66 +82,61 @@ function initMap() {
 	var directionsDisplay = new google.maps.DirectionsRenderer;
 	var directionsService = new google.maps.DirectionsService;
 	var markers = [];
-	var points = [{lat: 35.725498, lng: 139.615570},{lat: 35.628658, lng: 139.711914},{lat: 35.713167, lng: 139.705457},{lat: 35.722547, lng: 139.643250},{lat: 35.716102, lng: 139.698816},{lat: 35.706696, lng: 139.701605},{lat: 35.660517, lng: 139.701390},{lat: 35.633364, lng: 139.715382}];
-	var request = {
-	    origin:points[0],
-	    destination:points[1],
-	    waypoints: [
-		    {
-		      location:points[2],
-		      stopover:false
-		    },
-		    {
-		      location:points[3],
-		      stopover:false
-		    },
-		    {
-		      location:points[4],
-		      stopover:false
-		    },
-		    {
-		      location:points[5],
-		      stopover:false
-		    },
-		    {
-		      location:points[6],
-		      stopover:false
-		    },
-		    {
-		      location:points[7],
-		      stopover:false
-		    }],
-		optimizeWaypoints: true,
-	    travelMode: google.maps.TravelMode.DRIVING
-    };
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 35.5, lng: 140},
-        zoom: 8
-    });
-    directionsDisplay.setMap(map);
-    directionsService.route(request, function(result, status) {
-        if (status == google.maps.DirectionsStatus.OK) {
-            directionsDisplay.setDirections(result);
-        } else {
-            window.alert('Directions request failed due to ' + status);
-        }
-    });
-	for (var i = 0; i <= tweet_points.length - 1; i++) {
-	  	markers[i] = new google.maps.Marker({
-			map: map,
-			animation: google.maps.Animation.DROP,
-			position: tweet_points[i],
-			anchorPoint: new google.maps.Point( 0 , -24 )
-		});
-	};
-	for (var i = 0; i <= tweet_points.length - 1; i++) {
-		google.maps.event.addListener( markers[i] , 'click' , (function(i) {
-			return function() {
-			$('.twitter_modal .modal' + tweet_ids[i]).fadeIn('slow');
-			$('.twitter_modal .modal' + tweet_ids[i]).addClass('active');
-			$('.twitter_modal').addClass('modal-back');
-			$('.twitter_modal').fadeIn('slow')};
-		})(i));
+	var points = <?php echo json_encode($locations); ?>;
+	if (points && points.length > 2) {
+		for (var i = 0; i <= points.length - 1; i++) {
+			points[i]['']
+		};
+		var waypoints = [];
+		for (var i = 0; i <= points.length - 1; i++) {
+			if (i != 0 && i != points.length - 1) {
+				waypoints[i - 1] = {
+			        location:points[i],
+			        stopover:false
+			    }
+			};
+		};
+		var request = {
+		    origin:points[0],
+		    destination:points[points.length - 1],
+		    waypoints: waypoints,
+			optimizeWaypoints: true,
+		    travelMode: google.maps.TravelMode.DRIVING
+	    };
+	    map = new google.maps.Map(document.getElementById('map'), {
+	        center: points[points.length - 1],
+	        zoom: 8
+	    });
+	    directionsDisplay.setMap(map);
+	    directionsService.route(request, function(result, status) {
+	        if (status == google.maps.DirectionsStatus.OK) {
+	            directionsDisplay.setDirections(result);
+	        } else {
+	            window.alert('Directions request failed due to ' + status);
+	        }
+	    });
+		for (var i = 0; i <= tweet_points.length - 1; i++) {
+		  	markers[i] = new google.maps.Marker({
+				map: map,
+				animation: google.maps.Animation.DROP,
+				position: tweet_points[i],
+				anchorPoint: new google.maps.Point( 0 , -24 )
+			});
+		};
+		for (var i = 0; i <= tweet_points.length - 1; i++) {
+			google.maps.event.addListener( markers[i] , 'click' , (function(i) {
+				return function() {
+				$('.twitter_modal .modal' + tweet_ids[i]).fadeIn('slow');
+				$('.twitter_modal .modal' + tweet_ids[i]).addClass('active');
+				$('.twitter_modal').addClass('modal-back');
+				$('.twitter_modal').fadeIn('slow')};
+			})(i));
+		};
+	} else {
+		map = new google.maps.Map(document.getElementById('map'), {
+	        center: {lat:35.684760, lng:139.752882},
+	        zoom: 8
+	    });
 	};
 
 
