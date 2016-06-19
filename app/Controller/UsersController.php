@@ -42,9 +42,8 @@ class UsersController extends AppController{
 		$locations = $this->Location->find('all', array('conditions'=>array('time <='=>$date->format('Y-m-d H:i:s'),'time >='=>$date->format('Y-m-d 00:00:00'))));
 		$latlng = array();
 		for ($i=0; $i < count($locations); $i++) { 
-			$latlng[$i] = array("lat"=>(double) $locations[$i]['Location']['lat'], "lng"=>(double) $locations[$i]['Location']['lat']);
+			$latlng[$i] = array("lat"=>(double) $locations[$i]['Location']['lat'], "lng"=>(double) $locations[$i]['Location']['lng']);
 		}
-		$this->log($locations[0]['Location']['lat'], LOG_DEBUG);
 		$this->set('locations', $latlng);
 	}
 	public function getData() {
