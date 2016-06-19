@@ -911,3 +911,25 @@ Request URL: /content/img/ajax/gmapv3/sphinx.gif
 Stack Trace:
 #0 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2016-06-19 12:44:19 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[HY000] [2002] Can\'t connect to local MySQL server through socket \'/var/lib/mysql/mysql.sock\' (2)',
+  'enabled' => true,
+)
+Request URL: /users/mypage/4?date=20160614
+Stack Trace:
+#0 /vagrant/cakephp/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /vagrant/cakephp/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /vagrant/cakephp/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /vagrant/cakephp/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /vagrant/cakephp/lib/Cake/Model/Model.php(3551): Model->setSource('users')
+#5 /vagrant/cakephp/lib/Cake/Model/Model.php(808): Model->getDataSource()
+#6 /vagrant/cakephp/app/Controller/UsersController.php(31): Model->__call('findById', Array)
+#7 /vagrant/cakephp/app/Controller/UsersController.php(31): User->findById('4')
+#8 [internal function]: UsersController->mypage('4')
+#9 /vagrant/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#10 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /vagrant/cakephp/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#12 /vagrant/cakephp/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}

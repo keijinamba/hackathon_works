@@ -5,6 +5,7 @@ html, body { margin: 0; height: 500px;}
 .no-underbar { text-decoration: none;}
 .color-black { color:rgb(20, 20, 20);}
 .unshow { display:none;}
+.modal-back { background-color:rgba(25,25,25,0.7);}
 
 /* pcページ */
 .pc header { position:relative; z-index:10; height:100px; width:100%; border-bottom:solid 1px rgb(20, 20, 20);}
@@ -17,7 +18,8 @@ html, body { margin: 0; height: 500px;}
 .pc .twitter_wrapper { width:700px; overflow-y:hidden; }
 .pc .twitter_wrapper .twitter-tweet { width:300px !important; float:left; margin:10px;}
 .pc h1 {margin:0 auto;}
-.pc .twitter_modal 
+.pc .twitter_modal { width:100vw; height:100vh; position:fixed; top:0; left:0; cursor:pointer;}
+.pc .twitter_modal .modal {width:520px; height:160px; position:fixed; top:calc((100vh - 160px)/2); left:calc((100vw - 520px)/2); z-index:10;}
 #UserSignupForm {margin:0 auto; width:60%; height:20%; text-align: center;}
 #UserLoginForm {margin:0 auto; width:60%; height:20%; text-align: center;}
 
